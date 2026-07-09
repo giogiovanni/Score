@@ -1,0 +1,45 @@
+body { 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; background-color: midnightblue; color: #fff; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; 
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.scoreboard { 
+    padding: 30px; text-align: center; width: 450px; 
+}
+
+.title { 
+    font-size: 3.5rem; color: #ffcc00; text-transform: uppercase; margin-bottom: 20px; 
+}
+
+.teams-container { 
+    display: flex; justify-content: space-between; margin-bottom: 25px; 
+}
+
+.team-name { 
+    font-size: xx-large; font-weight: bold; margin-bottom: 11px; 
+}
+
+.score-display { 
+    font-family: 'Orbitron', monospace; font-size: 4.5rem; font-weight: bold; background-color: #111; color: #ff3333; padding: 10px 0; border-radius: 8px; width: 140px; margin: 0 auto 15px; 
+}
+
+
+button { 
+    background-color: midnightblue; color: #ffcc00; padding: 8px 12px; cursor: pointer; border-radius: 8px; 
+}
+
+button:hover { 
+    background-color: #555; 
+}
+
+.reset-btn { 
+    margin-top: 20px; width: 60%; 
+}
+
+.reset-btn:hover { 
+    background-color: #ff3333; 
+}
